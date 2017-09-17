@@ -1,0 +1,17 @@
+#nav-bar {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.thumbnail-caption {
+    font-size: 14px;
+}
+
+.thumbnail {
+    width: 325px;
+}
+
+.thumbnail-pic {
+    width: 300px;
+}
