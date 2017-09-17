@@ -1,3 +1,18 @@
+body {
+    padding: 5px;
+}
+
+#head-section, nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio, #bio-text {
+    padding: 5px;
+}
+
 #nav-bar {
     list-style: none;
     display: inline-flex;
@@ -6,6 +21,7 @@
 
 .thumbnail-caption {
     font-size: 14px;
+    text-align: center;
 }
 
 .thumbnail {
@@ -14,4 +30,29 @@
 
 .thumbnail-pic {
     width: 300px;
+}
+
+li {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;    
+}
+
+li:first-child {
+    padding-left: 0;
+}
+
+li:last-child {
+    padding-right: 0;
+}
+
+nav {
+    width: auto;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
