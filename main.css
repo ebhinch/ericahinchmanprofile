@@ -1,5 +1,6 @@
 body {
     padding: 5px;
+    background-color: #ebebeb;
 }
 
 #head-section, nav {
@@ -7,11 +8,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    letter-spacing: 2px;
+}
+
+hr {
+    border-color: grey;
 }
 
 #bio, #bio-text {
     padding: 5px;
 }
+
 
 #nav-bar {
     list-style: none;
@@ -55,4 +62,15 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    letter-spacing: 2px;
+}
+
+#caption-title-1 {
+    letter-spacing: 2px;
+}
+
+#headshot {
+    float: right;
+    overflow: auto;
+    height: 190px;
 }
