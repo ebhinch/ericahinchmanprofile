@@ -1,6 +1,19 @@
 body {
-    padding: 5px;
+    padding: 7px;
     background-color: #ebebeb;
+}
+
+hr {
+    border-color: grey;
+}
+
+#head-section, nav, .section-title, #hi {
+    font-family: 'Open Sans', sans-serif;
+} 
+
+h1, h2 {
+    /* text-shadow: 1px 1px rgba(147, 172, 235, 0.86); */
+    text-shadow: 1px 1px #337ab7;
 }
 
 #head-section, nav {
@@ -11,19 +24,57 @@ body {
     letter-spacing: 2px;
 }
 
-hr {
-    border-color: grey;
-}
-
-#bio, #bio-text {
-    padding: 5px;
-}
-
-
 #nav-bar {
     list-style: none;
     display: inline-flex;
     justify-content: space-between;
+}
+
+li {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px;    
+    font-family: 'Open Sans', sans-serif;   
+}
+
+#bio, p {
+    /* padding: 5px; */
+    height: auto;  
+}
+
+#nav-bar:first-child {
+    padding-left: 0;
+}
+
+#nav-bar:last-child {
+    padding-right: 0;
+}
+
+nav {
+    width: auto;
+}
+
+#hi {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* "My Work" thumbnails */
+.my-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .thumbnail-caption {
@@ -39,38 +90,23 @@ hr {
     width: 300px;
 }
 
-li {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 10px;    
-}
-
-li:first-child {
-    padding-left: 0;
-}
-
-li:last-child {
-    padding-right: 0;
-}
-
-nav {
-    width: auto;
-}
-
-.section-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
+a:hover {
+    color: navy;
 }
 
 #caption-title-1 {
     letter-spacing: 2px;
 }
 
-#headshot {
-    float: right;
-    overflow: auto;
-    height: 190px;
+
+/* footer  */
+.footer-class {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-id {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
 }

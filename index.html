@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
      crossorigin="anonymous">
 
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">     
+
     <!-- link CSS -->
     <link rel="stylesheet" href="main.css">
+    
 </head>
 
 <body>
@@ -29,106 +32,125 @@
 
         <nav>
             <ul id="nav-bar">
+                <li><a href="#">My Resume</a></li>                    
                 <li><a href="#">Bio</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">My Resume</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#">My Work</a></li>
+                
             </ul>
         </nav>
+    </main>
 
         <hr>
 
-        <div id="bio">
-            <h3>Hi! I’m Erica.</h3>
-            <img id="headshot" src="erica.png"></a>
-            <p id="bio-text">I am a web developer who recently completed General Assembly Atlanta’s Web Development Immersive. I am seeking a full-time full-stack development position that allows me to marry my creative skills, technical abilities and passion for the culinary, historic preservation and lifestyle industries. A former public relations professional, I not only offer clean, efficient, effective coding but bring excellent written and verbal communication skills – making me stand out even more in the technology industry.</p> 
+        <div class="clearfix" id="bio">
+            <h3 id="hi">Hi! I’m Erica.</h3>
+            <p>I am a web developer who recently completed General Assembly Atlanta’s Web Development Immersive. I am seeking a full-time full-stack development position that allows me to marry my creative skills, technical abilities and passion for the culinary, historic preservation and lifestyle industries. A former public relations professional, I not only offer clean, efficient, effective coding but bring excellent written and verbal communication skills – making me stand out even more in the technology industry.</p> 
             
         </div>
 
         <hr>
         <br>
 
-        <h3 class="section-title">My Work</h3>
+        <div class="site-section" id="my-work">        
+            <h3 class="section-title">My Work</h3>
 
-        <div class="my-work">
-            <div class="col-xs-6 col-md-3">
+            <!-- project 1 -->
+            <div class="my-projects">
                 <div class="thumbnail">
-                <a href="#" class="thumbnail-pic" id="project-1-pic">
-                <img src="blackjack.png">
-                </a>
-                <div class="caption">
-                    <h3 class="thumbnail-caption" id="caption-title-1"><a href="http://www.facebook.com">Project 1: Blackjack</a></h3>
+                    <a href="" class="thumbnail-pic" id="project-1-pic">
+                        <img src="blackjack.png">
+                    </a>
+
+                    <div class="caption">
+                    <h3 class="thumbnail-caption" id="caption-title-1"><a href="">Project 1: Blackjack</a></h3>
                     <p>Write a BlackJack game to try to beat the dealer. Allow the user to "Hit" or "Stay" based on their current score. Follow the common rules for BlackJack.</p>
                 </div>
                 </div>
             </div>
-        </div>
-
-        <!-- <div class="my-work">
-            <div class="col-xs-6 col-md-3">
+            
+            <!-- project 2 -->
+            <div class="my-projects">
                 <div class="thumbnail">
-                <a href="#" class="thumbnail-pic" id="project-2-pic">
-                <img src="">
-                </a>
-                <div class="caption">
-                    <h3 class="thumbnail-caption"><a href="">Project 2:</a></h3>
+                    <a href="" class="thumbnail-pic" id="project-2-pic">
+                        <img src="">
+                    </a>
+
+                    <div class="caption">
+                    <h3 class="thumbnail-caption" id="caption-title-2"><a href="">Project 2:</a></h3>
                     <p></p>
-                </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="my-work">
-            <div class="col-xs-6 col-md-3">
+            
+            <!-- project 3 -->
+            <div class="my-projects">
                 <div class="thumbnail">
-                <a href="#" class="thumbnail-pic" id="project-3-pic">
-                <img src="">
-                </a>
-                <div class="caption">
-                    <h3 class="thumbnail-caption"><a href="">Project 3:</a></h3>
+                    <a href="" class="thumbnail-pic" id="project-3-pic">
+                        <img src="">
+                    </a>
+
+                    <div class="caption">
+                    <h3 class="thumbnail-caption" id="caption-title-3"><a href="">Project 3:</a></h3>
                     <p></p>
-                </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    
-        <div class="my-work">
-            <div class="col-xs-6 col-md-3">
+
+            <!-- project 4 -->
+            <div class="my-projects">
                 <div class="thumbnail">
-                <a href="#" class="thumbnail-pic" id="project-4-pic">
-                <img src="">
-                </a>
-                <div class="caption">
-                    <h3 class="thumbnail-caption"><a href="">Project 4:</a></h3>
-                    <p></p>
-                </div>
+                    <a href="" class="thumbnail-pic" id="project-4-pic">
+                        <img src="">
+                    </a>
+
+                    <div class="caption">
+                        <h3 class="thumbnail-caption" id="caption-title-4"><a href="">Project 4:</a></h3>
+                        <p></p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="my-work">
-            <div class="col-xs-6 col-md-3">
+            <!-- project 5 -->
+            <div class="my-projects">
                 <div class="thumbnail">
-                <a href="#" class="thumbnail-pic" id="project-5-pic">
-                <img src="">
-                </a>
-                <div class="caption">
-                    <h3 class="thumbnail-caption"><a href="">Project 5:</a></h3>
-                    <p></p>
+                    <a href="" class="thumbnail-pic" id="project-5-pic">
+                        <img src="">
+                    </a>
+
+                    <div class="caption">
+                        <h3 class="thumbnail-caption" id="caption-title-5"><a href="">Project 5:</a></h3>
+                        <p></p>
+                    </div>
                 </div>
                 </div>
+
             </div>
-        </div> -->
+           
+               
+    <hr>
 
-    
+    <div class="site-section" id="skills">
+        <h3 class="section-title">Technical Skills</h3>    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolores consectetur. Hic et nam quam dolorum veritatis sit obcaecati incidunt, asperiores quas harum perferendis minima labore fugit praesentium officiis. Odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolores consectetur. Hic et nam quam dolorum veritatis sit obcaecati incidunt, asperiores quas harum perferendis minima labore fugit praesentium officiis. Odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolores consectetur. Hic et nam quam dolorum veritatis sit obcaecati incidunt, asperiores quas harum perferendis minima labore fugit praesentium officiis. Odio.</p> 
+    </div>
 
-    </main>
+    <hr>
+            
+
+    <footer class="footer-class">
+        <ul id="footer-id">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">LinkedIn</a></li>
+        </ul>
+    </footer>
 
     <!-- add in jquery script -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
 
     <!-- link JS -->
-    <script src='game.js'></script>    
-</body>
-</html>
+    <script src='portfolio.js'></script>    
+
+    </body>
