@@ -7,7 +7,7 @@ hr {
     border-color: grey;
 }
 
-#head-section, nav, .section-title, #hi {
+.head-section, nav, .section-title, #hi {
     font-family: 'Open Sans', sans-serif;
 } 
 
@@ -16,7 +16,7 @@ h1, h2 {
     text-shadow: 1px 1px #337ab7;
 }
 
-#head-section, nav {
+.head-section, nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-#nav-bar {
+.list-class{
     list-style: none;
     display: inline-flex;
     justify-content: space-between;
@@ -77,10 +77,6 @@ a:hover {
     color: navy;
 }
 
-#caption-title-1 {
-    letter-spacing: 2px;
-}
-
 /* "My Work" thumbnails */
 .my-projects {
     display: flex;
@@ -92,6 +88,7 @@ a:hover {
 .thumbnail-caption {
     font-size: 14px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .thumbnail {
@@ -105,8 +102,3 @@ a:hover {
     justify-content: center;
 }
 
-#footer-id {
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-between;
-}
