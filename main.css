@@ -42,14 +42,6 @@ li {
     height: auto;  
 }
 
-#nav-bar:first-child {
-    padding-left: 0;
-}
-
-#nav-bar:last-child {
-    padding-right: 0;
-}
-
 nav {
     width: auto;
 }
