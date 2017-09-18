@@ -37,6 +37,16 @@ li {
     font-family: 'Open Sans', sans-serif;   
 }
 
+.list-class:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.list-class:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
 #bio, p {
     /* padding: 5px; */
     height: auto;  
