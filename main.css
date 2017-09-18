@@ -79,11 +79,23 @@ a:hover {
     color: navy;
 }
 
+/* this makes each dive same size but puts them in a column */
 /* "My Work" thumbnails */
 .my-projects {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center; */
+    /* width: 33%; */
+    width: 300px;
+}
+
+/* this puts divs in a row but messes up size and won't let any move to next row */
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -94,7 +106,11 @@ a:hover {
 }
 
 .thumbnail {
-    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-block-end: 10px;
+    margin-top: 5px;
+    
 }
 
 
