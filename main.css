@@ -69,6 +69,18 @@ nav {
     margin-bottom: 20px;
 }
 
+a {
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: navy;
+}
+
+#caption-title-1 {
+    letter-spacing: 2px;
+}
+
 /* "My Work" thumbnails */
 .my-projects {
     display: flex;
@@ -83,19 +95,7 @@ nav {
 }
 
 .thumbnail {
-    width: 325px;
-}
-
-.thumbnail-pic {
-    width: 300px;
-}
-
-a:hover {
-    color: navy;
-}
-
-#caption-title-1 {
-    letter-spacing: 2px;
+    width: 33%;
 }
 
 
