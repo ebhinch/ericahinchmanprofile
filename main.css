@@ -3,9 +3,6 @@ body {
     background-color: #ebebeb;
 }
 
-hr {
-    border-color: grey;
-}
 
 .head-section, nav, .section-title {
     font-family: 'Roboto', sans-serif;
@@ -16,7 +13,12 @@ nav {
     margin-top: 0;
 }
 
-.head-section, nav {
+a {
+    text-decoration: none;
+    
+}
+
+.head-section, nav, .footer-class {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,6 +36,7 @@ nav {
     display: inline-flex;
     justify-content: space-between;  
     margin: 0;
+    
 }
 
 li {
@@ -46,6 +49,7 @@ li {
 .list-class:last-child {
     padding-right: 0;
     margin-right: 0;
+    
 }
 
 .list-class:first-child {
@@ -53,15 +57,22 @@ li {
     margin-left: 0;
 }
 
-#bio, p, #about {
+#bio, #about {
     font-family: 'Vollkorn', serif;
-    
+}
+
+#contact-section {
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Vollkorn', serif;
 }
 
 
 #hi {
     font-size: 20px;
     margin-top: 10px;
+    border-top: 10px solid #202c62;
+    padding-top: 7px;
 }
 
 .section-title{
@@ -72,6 +83,13 @@ li {
     letter-spacing: 2px;
     margin-top: 10px;
     margin-bottom: 20px;
+    border-top: 1px solid #202c62;
+    padding-top: 7px;
+    /* font-family: 'Shadows Into Light', cursive;   */
+    
+    font-family: 'Vollkorn', serif;
+    
+    
 }
 
 a:visited {
@@ -79,7 +97,7 @@ a:visited {
 }
 
 a:hover {
-    color: navy;
+    color: #202c62;
 }
 
 
@@ -97,6 +115,9 @@ a:hover {
     margin: 5px;
     padding: 10px;
     width: 30%;
+    font-family: 'Shadows Into Light', cursive;  
+    font-size: 20px;
+    
 }
 
 #project-body{
@@ -128,7 +149,6 @@ a:hover {
 
 /* footer  */
 .footer-class {
-    display: flex;
-    justify-content: center;
+    border-top: 10px solid #202c62;
 }
 
