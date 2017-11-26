@@ -8,13 +8,8 @@ hr {
 }
 
 .head-section, nav, .section-title, #hi {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 } 
-
-h1, h2 {
-    /* text-shadow: 1px 1px rgba(147, 172, 235, 0.86); */
-    text-shadow: 1px 1px #337ab7;
-}
 
 .head-section, nav {
     display: flex;
@@ -22,19 +17,21 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 .list-class{
     list-style: none;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 li {
-    letter-spacing: 2px;
     text-transform: uppercase;
     padding: 10px;    
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Shadows Into Light', cursive;  
+    font-weight: bold;
 }
 
 .list-class:last-child {
@@ -71,15 +68,13 @@ nav {
     margin-bottom: 20px;
 }
 
-a {
-    letter-spacing: 2px;
-}
+
 
 a:hover {
     color: navy;
 }
 
-/* this makes each dive same size but puts them in a column */
+/* this makes each div same size but puts them in a column */
 /* "My Work" thumbnails */
 .my-projects {
     /* display: flex;
