@@ -74,40 +74,36 @@ a:hover {
     color: navy;
 }
 
-/* this makes each div same size but puts them in a column */
-/* "My Work" thumbnails */
-.my-projects {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
-    /* width: 33%; */
-    width: 300px;
-}
-
-/* this puts divs in a row but messes up size and won't let any move to next row */
-#projects {
+#project-container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
-.thumbnail-caption {
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 2px;
-}
+.shadow-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F3FAFF;
+    margin: 10px;
+    padding: 10px;
 
-.thumbnail {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-block-end: 10px;
-    margin-top: 5px;
+    width: 30%;
     
 }
 
+#project-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-image{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 10px;
+}
 
 /* footer  */
 .footer-class {
