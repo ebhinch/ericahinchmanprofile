@@ -71,7 +71,7 @@ li {
 #hi {
     font-size: 20px;
     margin-top: 10px;
-    border-top: 3px solid #202c62;
+    border-top: 1px solid #202c62;
     padding-top: 7px;
 }
 
@@ -122,6 +122,7 @@ a:hover {
     margin: 5px;
     padding: 10px;
     width: 30%;
+    height: auto;
     font-size: 20px;
     font-family: 'Vollkorn', serif;
     
@@ -156,6 +157,6 @@ a:hover {
 
 /* footer  */
 .footer-class {
-    border-top: 3px solid #202c62;
+    border-top: 1px solid #202c62;
 }
 
