@@ -87,9 +87,7 @@ a:hover {
     background-color: #F3FAFF;
     margin: 10px;
     padding: 10px;
-
     width: 30%;
-    
 }
 
 #project-body{
@@ -103,6 +101,17 @@ a:hover {
     margin: 0 auto;
     height: 300px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 599px) {
+    #project-container {
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .shadow-div {
+        width: 95%;
+    }
 }
 
 /* footer  */
