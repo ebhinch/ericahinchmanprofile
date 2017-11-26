@@ -7,7 +7,7 @@ hr {
     border-color: grey;
 }
 
-.head-section, nav, .section-title, #hi {
+.head-section, nav, .section-title {
     font-family: 'Roboto', sans-serif;
     color: #202c62;
 } 
@@ -28,17 +28,6 @@ nav {
     height: 50px;
     text-align: center;
 }
-
-/* .head-section, nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
-    font-family: 'Shadows Into Light', cursive;  
-    
-   
-} */
 
 .list-class{
     list-style: none;
@@ -64,9 +53,9 @@ li {
     margin-left: 0;
 }
 
-#bio, p {
-    /* padding: 5px; */
-    height: auto;  
+#bio, p, #about {
+    font-family: 'Vollkorn', serif;
+    
 }
 
 
