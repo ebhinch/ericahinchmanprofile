@@ -4,18 +4,14 @@ body {
 }
 
 
-.head-section, nav, .section-title {
+p {
     font-family: 'Roboto', sans-serif;
     color: #202c62;
+    font-size: 14px;
 } 
 
 nav {
     margin-top: 0;
-}
-
-a {
-    text-decoration: none;
-    
 }
 
 .head-section, nav, .footer-class {
@@ -64,14 +60,18 @@ li {
 #contact-section {
     text-align: center;
     padding-bottom: 5px;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #202c62;
+    /* font-family: 'Vollkorn', serif; */
+    font-size: 14px;
+    padding-bottom: 10px;    
 }
 
 
 #hi {
     font-size: 20px;
     margin-top: 10px;
-    border-top: 10px solid #202c62;
+    border-top: 3px solid #202c62;
     padding-top: 7px;
 }
 
@@ -85,11 +85,17 @@ li {
     margin-bottom: 20px;
     border-top: 1px solid #202c62;
     padding-top: 7px;
-    /* font-family: 'Shadows Into Light', cursive;   */
-    
     font-family: 'Vollkorn', serif;
     
     
+}
+
+a {
+    text-decoration: none;
+}
+
+#email {
+    color: #202c62;
 }
 
 a:visited {
@@ -97,7 +103,8 @@ a:visited {
 }
 
 a:hover {
-    color: #202c62;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 
@@ -115,8 +122,8 @@ a:hover {
     margin: 5px;
     padding: 10px;
     width: 30%;
-    font-family: 'Shadows Into Light', cursive;  
     font-size: 20px;
+    font-family: 'Vollkorn', serif;
     
 }
 
@@ -149,6 +156,6 @@ a:hover {
 
 /* footer  */
 .footer-class {
-    border-top: 10px solid #202c62;
+    border-top: 3px solid #202c62;
 }
 
