@@ -64,6 +64,14 @@ li {
     margin-top: 10px;
 }
 
+object {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
 .section-title{
     display: flex;
     flex-direction: column;
@@ -124,7 +132,10 @@ a:hover {
     nav {
         font-size: 10px;
     }
+
 }
+
+  
 
 /* footer  */
 .footer-class {
