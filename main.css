@@ -149,7 +149,11 @@ a:hover {
     font-family: 'Vollkorn', serif;
 }
 
-
+.github-link {
+    font-size: 14px;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #202c62;
+}
 
 #project-body{
     display: flex;
