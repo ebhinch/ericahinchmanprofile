@@ -17,6 +17,10 @@ nav {
 
 #name {
     font-size: 18px;
+    font-family: 'Shadows Into Light', cursive; 
+    color: #202c62;
+    
+    
 }
 
 .head-section, nav, .footer-class {
@@ -53,8 +57,9 @@ nav {
 }
 
 .header-list-item, .footer-list-item{
+    width: 10%;
     text-transform: uppercase;
-    padding: 10px;    
+   text-align: center;
     font-family: 'Shadows Into Light', cursive;  
     font-weight: bold;
     color: #202c62;
@@ -66,7 +71,7 @@ nav {
 }
 
 
-.list-class:last-child {
+/* .list-class:last-child {
     padding-right: 0;
     margin-right: 0;
     
@@ -75,7 +80,7 @@ nav {
 .list-class:first-child {
     padding-left: 0;
     margin-left: 0;
-}
+} */
 
 #bio, #about {
     font-family: 'Vollkorn', serif;
@@ -204,6 +209,10 @@ a:hover {
 
 /* footer  */
 .footer-class {
+    display: flex;
     border-top: 1px solid #202c62;
+    width: 100%;
 }
+
+
 
