@@ -1,6 +1,6 @@
 body {
     padding: 7px;
-    background-color: #ebebeb;
+    background-color: #fefbf5;
     border: 4px solid #202c62;
 }
 
@@ -40,13 +40,27 @@ nav {
     
 }
 
-li {
+.skill-list-item {
+    font-family: 'Roboto', sans-serif;   
+    font-size: 14px; 
+    color: #202c62;
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+}
+
+#skills {
+    columns: 3;
+}
+
+.header-list-item, .footer-list-item{
     text-transform: uppercase;
     padding: 10px;    
     font-family: 'Shadows Into Light', cursive;  
     font-weight: bold;
     color: #202c62;
+    font-weight: bold;    
 }
+
 
 .list-class:last-child {
     padding-right: 0;
@@ -61,7 +75,6 @@ li {
 
 #bio, #about {
     font-family: 'Vollkorn', serif;
-
     padding-bottom: 10px;
 }
 
@@ -95,7 +108,7 @@ li {
     margin-top: 10px;
     margin-bottom: 20px;
     border-top: 1px solid #202c62;
-    padding-top: 7px;
+    padding-top: 10px;
     font-family: 'Vollkorn', serif;   
 }
 
@@ -127,7 +140,7 @@ a:hover {
 
 .shadow-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #F3FAFF;
+   background-color: rgba(38,53,117, .1);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -135,8 +148,9 @@ a:hover {
     width: 30%;
     font-size: 20px;
     font-family: 'Vollkorn', serif;
-    
 }
+
+
 
 #project-body{
     display: flex;
@@ -165,6 +179,9 @@ a:hover {
     }
     #name {
         font-size: 10px;
+    }
+    #skills {
+        columns: 2;
     }
 }
 
