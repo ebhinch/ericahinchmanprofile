@@ -1,6 +1,7 @@
 body {
     padding: 7px;
     background-color: #ebebeb;
+    border: 4px solid #202c62;
 }
 
 
@@ -14,6 +15,10 @@ nav {
     margin-top: 0;
 }
 
+#name {
+    font-size: 18px;
+}
+
 .head-section, nav, .footer-class {
     display: flex;
     flex-direction: column;
@@ -22,7 +27,7 @@ nav {
     font-size: 14px;
 }
 
-#nav-logo {
+#logo {
     height: 50px;
     text-align: center;
 }
@@ -40,6 +45,7 @@ li {
     padding: 10px;    
     font-family: 'Shadows Into Light', cursive;  
     font-weight: bold;
+    color: #202c62;
 }
 
 .list-class:last-child {
@@ -55,39 +61,42 @@ li {
 
 #bio, #about {
     font-family: 'Vollkorn', serif;
+
+    padding-bottom: 10px;
+}
+
+#about-text{
+    margin-top: 5px;
 }
 
 #contact-section {
-    text-align: center;
+    text-align: left;
     padding-bottom: 5px;
     font-family: 'Roboto', sans-serif;
     color: #202c62;
     /* font-family: 'Vollkorn', serif; */
-    font-size: 14px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;   
+    color: black; 
 }
+
 
 
 #hi {
     font-size: 20px;
     margin-top: 10px;
     border-top: 1px solid #202c62;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 
 .section-title{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 2px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-top: 1px solid #202c62;
     padding-top: 7px;
-    font-family: 'Vollkorn', serif;
-    
-    
+    font-family: 'Vollkorn', serif;   
 }
 
 a {
@@ -112,7 +121,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -152,6 +161,9 @@ a:hover {
         width: 95%;
     }
     nav {
+        font-size: 10px;
+    }
+    #name {
         font-size: 10px;
     }
 }
