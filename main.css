@@ -61,6 +61,10 @@ nav {
     font-weight: bold;    
 }
 
+.footer-list-item {
+    padding: 10px;
+}
+
 
 .list-class:last-child {
     padding-right: 0;
@@ -87,7 +91,7 @@ nav {
     padding-bottom: 5px;
     font-family: 'Roboto', sans-serif;
     color: #202c62;
-    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Vollkorn', serif;
     padding-bottom: 10px;   
     color: black; 
 }
@@ -114,6 +118,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: #202c62;
 }
 
 #email {
@@ -169,7 +174,6 @@ a:hover {
     #project-container {
         flex-direction: column;
         width: 100%;
-    
     }
     .shadow-div {
         width: 95%;
@@ -178,6 +182,9 @@ a:hover {
         font-size: 10px;
     }
     #name {
+        font-size: 10px;
+    }
+    .header-list-item, .footer-list-item {
         font-size: 10px;
     }
     #skills {
