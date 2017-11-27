@@ -19,6 +19,7 @@ nav {
     font-size: 18px;
     font-family: 'Shadows Into Light', cursive; 
     color: #202c62;
+    font-weight: bold;
     
     
 }
@@ -28,7 +29,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: space-between;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #logo {
@@ -57,9 +58,9 @@ nav {
 }
 
 .header-list-item, .footer-list-item{
-    width: 10%;
+    width: 12%;
     text-transform: uppercase;
-   text-align: center;
+    text-align: center;
     font-family: 'Shadows Into Light', cursive;  
     font-weight: bold;
     color: #202c62;
@@ -69,18 +70,6 @@ nav {
 .footer-list-item {
     padding: 10px;
 }
-
-
-/* .list-class:last-child {
-    padding-right: 0;
-    margin-right: 0;
-    
-}
-
-.list-class:first-child {
-    padding-left: 0;
-    margin-left: 0;
-} */
 
 #bio, #about {
     font-family: 'Vollkorn', serif;
@@ -183,14 +172,13 @@ a:hover {
     .shadow-div {
         width: 95%;
     }
-    nav {
-        font-size: 10px;
-    }
+ 
     #name {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 1px;
     }
     .header-list-item, .footer-list-item {
-        font-size: 10px;
+        font-size: 12px;
     }
     #skills {
         columns: 2;
@@ -208,11 +196,14 @@ a:hover {
 }
 
 /* footer  */
-.footer-class {
+.footer-class{
     display: flex;
+    justify-content: space-evenly;
     border-top: 1px solid #202c62;
     width: 100%;
 }
 
-
-
+.list-class {
+    display: flex;
+    justify-content: space-around;
+}
