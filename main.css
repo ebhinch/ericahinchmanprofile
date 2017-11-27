@@ -192,6 +192,16 @@ a:hover {
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #project-container {
+        flex-direction: row;
+        width: 100%;
+    }
+    .shadow-div{
+        width: 40%;
+    }
+}
+
 /* footer  */
 .footer-class {
     border-top: 1px solid #202c62;
