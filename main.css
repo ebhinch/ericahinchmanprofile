@@ -37,12 +37,9 @@ nav {
     text-align: center;
 }
 
-.list-class{
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-between;  
-    margin: 0;
-    
+.list-class {
+    display: flex;
+    justify-content: space-around;
 }
 
 .skill-list-item {
@@ -207,7 +204,3 @@ a:hover {
     width: 100%;
 }
 
-.list-class {
-    display: flex;
-    justify-content: space-around;
-}
