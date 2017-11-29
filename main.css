@@ -99,7 +99,6 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    border-top: 1px solid #202c62;
 }
 
 #bio, #about {
@@ -122,13 +121,12 @@ nav {
     font-family: 'Vollkorn', serif;
     font-weight: bold;
     padding-bottom: 20px;
-    padding-top: 20px;
+
     color: black; 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100px;
-    border-top: 1px solid #202c62;
 }
 
 .section-title{
@@ -276,7 +274,7 @@ a:hover {
     justify-content: space-evenly;
     border-top: 1px solid #202c62;
     width: 100%;
-    margin-top: 20px;
+
 }
 
 #bio {
