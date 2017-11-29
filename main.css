@@ -226,7 +226,7 @@ a:hover {
         padding: 1px;
     }
     .header-list-item, .footer-list-item {
-        font-size: 12px;
+        font-size: 16px;
     }
     #skills {
         columns: 2;
