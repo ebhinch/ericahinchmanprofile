@@ -156,7 +156,6 @@ a {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-  
 }
 
 a:visited {
@@ -241,6 +240,11 @@ a:hover {
     .shadow-div{
         width: 40%;
     }
+    #bio {
+        background-image: url(./images/design.png);
+        border-top: 1px solid #202c62;
+        width: 100%;
+    }
 }
 
 /* footer  */
@@ -252,3 +256,10 @@ a:hover {
     margin-top: 20px;
 }
 
+#bio {
+    background-image: url(./images/design.png);
+    border-top: 1px solid #202c62;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
