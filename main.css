@@ -180,6 +180,10 @@ a:hover {
     background-attachment: fixed;
 }
 
+.contact{
+    font-family: 'Vollkorn', serif;
+}
+
 .shadow-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color:white;
@@ -230,6 +234,11 @@ a:hover {
     #skills {
         columns: 2;
     }
+    #bio, #skill-section, .section-container {
+        background-image: url(./images/design.png);
+
+        background-repeat: repeat-x;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -240,10 +249,9 @@ a:hover {
     .shadow-div{
         width: 40%;
     }
-    #bio {
+    #bio, #skill-section, .section-container {
         background-image: url(./images/design.png);
-        border-top: 1px solid #202c62;
-        width: 100%;
+        background-repeat: repeat-x;
     }
 }
 
