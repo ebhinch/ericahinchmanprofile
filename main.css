@@ -71,8 +71,8 @@ nav {
     background-image: url("http://www.charlottesville365.com/c365-2015/wp-content/uploads/2015/08/blue_ridge_mountains-1500x550.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    background-attachment: scroll;
+    height: 600px;
+    background-attachment: fixed;
 }
 
 #bio, #about {
@@ -80,8 +80,12 @@ nav {
     padding-bottom: 10px;
 }
 
-#about-text{
+.about-text{
     margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #contact-section {
@@ -99,6 +103,9 @@ nav {
 #hi {
     font-size: 20px;
     margin-top: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5%;
 }
 
 .section-title{
