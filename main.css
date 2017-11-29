@@ -102,7 +102,6 @@ nav {
     color: #202c62;
     font-family: 'Vollkorn', serif;
     font-weight: bold;
-    font-size: 18px;
     padding-bottom: 10px;   
     color: black; 
     background-image: url(./images/design.png);
@@ -113,6 +112,10 @@ nav {
     border-top: 1px solid #202c62;
 }
 
+#contact-text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fefbf5;   
+}
 
 
 #hi {
@@ -168,7 +171,7 @@ a:hover {
 
 .shadow-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   background-color:white;
+    background-color:white;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
