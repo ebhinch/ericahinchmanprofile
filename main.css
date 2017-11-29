@@ -70,6 +70,8 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
+    display: flex;
+   
 }
 
 #bio-content {
@@ -80,6 +82,9 @@ nav {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 
 
@@ -239,6 +244,11 @@ a:hover {
 
         background-repeat: repeat-x;
     }
+    #bio-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -252,6 +262,11 @@ a:hover {
     #bio, #skill-section, .section-container {
         background-image: url(./images/design.png);
         background-repeat: repeat-x;
+    }
+    #bio-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
 
