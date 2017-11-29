@@ -1,6 +1,5 @@
 body {
     background-color: #fefbf5;
-
 }
 
 
@@ -19,8 +18,6 @@ nav {
     font-family: 'Shadows Into Light', cursive; 
     color: #202c62;
     font-weight: bold;
-    
-    
 }
 
 .head-section, nav, .footer-class {
@@ -68,27 +65,45 @@ nav {
 }
 
 #bio {
-
-    /* background-image: url(./images/design.png); */
-    /* background-image: url("http://cvillearts.org/wp-content/uploads/2015/08/Meg-West-September-2015-2-1024x509.jpg"); */
+    background-image: url(./images/design.png);
     border-top: 1px solid #202c62;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 600px; */
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
+#bio-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fefbf5; 
+    margin-top: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5%;
+}
+
+
 #skill-section {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./images/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     border-top: 1px solid #202c62;
-    
 }
 
 #bio, #about {
     font-family: 'Vollkorn', serif;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.about-text{
+.about-text, #hi{
     margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -98,32 +113,17 @@ nav {
 
 #contact-section {
     text-align: left;
-    padding-bottom: 5px;
     color: #202c62;
     font-family: 'Vollkorn', serif;
     font-weight: bold;
-    padding-bottom: 10px;   
+    padding-bottom: 20px;
+    padding-top: 20px;
     color: black; 
-    background-image: url(./images/design.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100px;
     border-top: 1px solid #202c62;
-}
-
-#contact-text {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #fefbf5;   
-}
-
-
-#hi {
-    font-size: 20px;
-    margin-top: 0;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 5%;
 }
 
 .section-title{
@@ -146,6 +146,20 @@ a {
     color: #202c62;
 }
 
+.section-content {
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fefbf5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  
+}
+
 a:visited {
     color: #15607A;
 }
@@ -156,7 +170,7 @@ a:hover {
 }
 
 
-#project-container{
+.section-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,7 +180,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    border-top: 1px solid #202c62;
 }
 
 .shadow-div{
@@ -237,5 +250,6 @@ a:hover {
     justify-content: space-evenly;
     border-top: 1px solid #202c62;
     width: 100%;
+    margin-top: 20px;
 }
 
