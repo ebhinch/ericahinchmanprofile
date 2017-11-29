@@ -1,0 +1,238 @@
+body {
+    background-color: #fefbf5;
+
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #202c62;
+    font-size: 14px;
+} 
+
+nav {
+    margin-top: 0;
+}
+
+#name {
+    font-size: 18px;
+    font-family: 'Shadows Into Light', cursive; 
+    color: #202c62;
+    font-weight: bold;
+    
+    
+}
+
+.head-section, nav, .footer-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    font-size: 18px;
+}
+
+#logo {
+    height: 50px;
+    text-align: center;
+}
+
+.list-class {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-list-item {
+    font-family: 'Roboto', sans-serif;   
+    font-size: 14px; 
+    color: #202c62;
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+}
+
+#skills {
+    columns: 3;
+}
+
+.header-list-item, .footer-list-item{
+    width: 12%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;  
+    font-weight: bold;
+    color: #202c62;
+    font-weight: bold;    
+}
+
+.footer-list-item {
+    padding: 10px;
+}
+
+#bio {
+
+    /* background-image: url(./images/design.png); */
+    /* background-image: url("http://cvillearts.org/wp-content/uploads/2015/08/Meg-West-September-2015-2-1024x509.jpg"); */
+    border-top: 1px solid #202c62;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    background-attachment: fixed;
+}
+
+#skill-section {
+    border-top: 1px solid #202c62;
+    
+}
+
+#bio, #about {
+    font-family: 'Vollkorn', serif;
+    padding-bottom: 10px;
+}
+
+.about-text{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact-section {
+    text-align: left;
+    padding-bottom: 5px;
+    color: #202c62;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;   
+    color: black; 
+    background-image: url(./images/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100px;
+    border-top: 1px solid #202c62;
+}
+
+
+
+#hi {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5%;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    padding-top: 10px;
+    font-family: 'Vollkorn', serif;   
+}
+
+a {
+    text-decoration: none;
+    color: #202c62;
+}
+
+#email {
+    color: #202c62;
+}
+
+a:visited {
+    color: #15607A;
+}
+
+a:hover {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+#project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./images/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #202c62;
+}
+
+.shadow-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+}
+
+.github-link {
+    font-size: 14px;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #202c62;
+}
+
+#project-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-image{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 599px) {
+    #project-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .shadow-div {
+        width: 95%;
+    }
+ 
+    #name {
+        font-size: 12px;
+        padding: 1px;
+    }
+    .header-list-item, .footer-list-item {
+        font-size: 12px;
+    }
+    #skills {
+        columns: 2;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #project-container {
+        flex-direction: row;
+        width: 100%;
+    }
+    .shadow-div{
+        width: 40%;
+    }
+}
+
+/* footer  */
+.footer-class{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #202c62;
+    width: 100%;
+}
+
